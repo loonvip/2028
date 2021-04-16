@@ -27,7 +27,7 @@ jobs:
         run: |
           cd ~/Scripts
           npm install
-      - name: '运行 【快手视频】‘
+      - name: '运行 【快手视频】'
         if: env.KUAISHOUMV
         run: |
           cd ~/Scripts

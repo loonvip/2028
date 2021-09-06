@@ -648,6 +648,7 @@ payload:
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
+  - DOMAIN-KEYWORD,pptv
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,103.65.41.130/32
   - IP-CIDR,103.65.41.132/32

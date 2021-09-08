@@ -9,7 +9,6 @@ payload:
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,mtalk.google.com
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,steamcommunity-a.akamaihd.net
@@ -361,9 +360,6 @@ payload:
   - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miaopai.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,mls-cdn.com
@@ -470,7 +466,6 @@ payload:
   - DOMAIN-SUFFIX,rrmj.tv
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,ruguoapp.com
-  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,s-reader.com
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sandai.net
@@ -645,7 +640,6 @@ payload:
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-KEYWORD,pptv

@@ -240,7 +240,14 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Steam.yaml
     path: ./ruleset/Steam.yaml
     interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/TikTok.yaml
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
 rules:
+  - RULE-SET,TikTok,全球加速
   - RULE-SET,ChinaIP,DIRECT
   - RULE-SET,Steam,全球加速
   - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦

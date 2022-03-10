@@ -36,7 +36,7 @@ proxies: null
 proxy-providers:
   HK:
     type: http
-    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%B8%AF%7CHK%7C(%3Fi)Hong))&emoji=-1&sort=0
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%B8%AF%7CHK%7C(%3Fi)Hong))&emoji=-1&sort=0
     interval: 3600
     path: ./Proxy/HKList.yaml
     health-check:
@@ -45,7 +45,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   TW:
     type: http
-    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E5%8F%B0%7CTW%7C(%3Fi)Taiwan))&emoji=-1&sort=0
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E5%8F%B0%7CTW%7C(%3Fi)Taiwan))&emoji=-1&sort=0
     interval: 3600
     path: ./Proxy/TWList.yaml
     health-check:
@@ -54,7 +54,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SG:
     type: http
-    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%96%B0%7C%E7%8B%AE%7C%E7%8D%85%7CSG%7C(%3Fi)Singapore))&emoji=-1&sort=0
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%96%B0%7C%E7%8B%AE%7C%E7%8D%85%7CSG%7C(%3Fi)Singapore))&emoji=-1&sort=0
     interval: 3600
     path: ./Proxy/SGList.yaml
     health-check:
@@ -63,7 +63,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   JP:
     type: http
-    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%97%A5%7CJP%7C(%3Fi)Japan))&emoji=-1&sort=0
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%97%A5%7CJP%7C(%3Fi)Japan))&emoji=-1&sort=0
     interval: 3600
     path: ./Proxy/JPList.yaml
     health-check:
@@ -72,7 +72,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   US:
     type: http
-    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E7%BE%8E%7CUS%7C(%3Fi)States%7CAmerican))&emoji=-1&sort=0
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E7%BE%8E%7CUS%7C(%3Fi)States%7CAmerican))&emoji=-1&sort=0
     interval: 3600
     path: ./Proxy/USList.yaml
     health-check:
@@ -132,7 +132,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🇹🇼 台湾
-    type: select
+    type: url-test
     use:
       - TW
     url: http://www.gstatic.com/generate_204
@@ -230,7 +230,7 @@ rule-providers:
     interval: 86400
   ChinaIP:
     type: http
-    behavior: ipcidr
+    behavior: classical
     url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/ChinaIP.yaml
     path: ./ruleset/ChinaIP.yaml
     interval: 86400

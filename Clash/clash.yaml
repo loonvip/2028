@@ -1,0 +1,269 @@
+mixed-port: 7890
+allow-lan: false
+bind-address: "*"
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+hosts:
+  mtalk.google.com: 108.177.125.188
+  dl.google.com: 180.163.151.161
+  dl.l.google.com: 180.163.151.161
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 119.29.29.29
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - +.xboxlive.com
+    - msftconnecttest.com
+    - xbox.*.microsoft.com
+    - "*.battlenet.com.cn"
+    - "*.battlenet.com"
+    - "*.blzstatic.cn"
+    - "*.battle.net"
+  nameserver:
+    - 119.29.29.29
+proxies: null
+proxy-providers:
+  HK:
+    type: http
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%B8%AF%7CHK%7C(%3Fi)Hong))&emoji=-1&sort=0
+    interval: 3600
+    path: ./Proxy/HKList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  TW:
+    type: http
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E5%8F%B0%7CTW%7C(%3Fi)Taiwan))&emoji=-1&sort=0
+    interval: 3600
+    path: ./Proxy/TWList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  SG:
+    type: http
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%96%B0%7C%E7%8B%AE%7C%E7%8D%85%7CSG%7C(%3Fi)Singapore))&emoji=-1&sort=0
+    interval: 3600
+    path: ./Proxy/SGList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  JP:
+    type: http
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E6%97%A5%7CJP%7C(%3Fi)Japan))&emoji=-1&sort=0
+    interval: 3600
+    path: ./Proxy/JPList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  US:
+    type: http
+    url: https://dove.589669.xyz/all2clash?&sub=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FJapan%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fproxy%2FHongKong%2Bhttps%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Fmifeng%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D1%2Bhttps%3A%2F%2Fstc-spadesdns.com%2Flink%2Fo3vSXnFXTcjI8mCR%3Fsub%3D3%26extend%3D1&filter=(%3F%3D.*(%E7%BE%8E%7CUS%7C(%3Fi)States%7CAmerican))&emoji=-1&sort=0
+    interval: 3600
+    path: ./Proxy/USList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: 𝐏𝐑𝐎𝐗𝐘
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇹🇼 台湾
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡
+  - name: 𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+    type: select
+    proxies:
+      - 🇺🇸 美国
+  - name: 𝐆𝐨𝐨𝐠𝐥𝐞
+    type: select
+    proxies:
+      - 🇺🇸 美国
+  - name: 𝐘𝐨𝐮𝐓𝐮𝐛𝐞
+    type: select
+    proxies:
+      - 🇺🇸 美国
+  - name: 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇹🇼 台湾
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡
+  - name: 全球加速
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇹🇼 台湾
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇸🇬 新加坡
+  - name: 黑白名单
+    type: select
+    proxies:
+      - 全球加速
+      - 国内直连
+  - name: 国内直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🇭🇰 香港
+    type: url-test
+    use:
+      - HK
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🇹🇼 台湾
+    type: select
+    use:
+      - TW
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🇸🇬 新加坡
+    type: url-test
+    use:
+      - SG
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🇯🇵 日本
+    type: url-test
+    use:
+      - JP
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🇺🇸 美国
+    type: url-test
+    use:
+      - US
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+rule-providers:
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Google.yaml
+    path: ./ruleset/Google.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Spotify.yaml
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/China.yaml
+    path: ./ruleset/China.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Global.yaml
+    path: ./ruleset/Global.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+  Advertising:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Advertising.yaml
+    path: ./ruleset/Advertising.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Twitter.yaml
+    path: ./ruleset/Twitter.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/ChinaIP.yaml
+    path: ./ruleset/ChinaIP.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/loonvip/2028@main/Clash/Steam.yaml
+    path: ./ruleset/Steam.yaml
+    interval: 86400
+rules:
+  - RULE-SET,ChinaIP,DIRECT
+  - RULE-SET,Steam,全球加速
+  - RULE-SET,Telegram,𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+  - RULE-SET,YouTube,𝐘𝐨𝐮𝐓𝐮𝐛𝐞
+  - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Spotify,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+  - RULE-SET,China,国内直连
+  - RULE-SET,GitHub,全球加速
+  - RULE-SET,Global,全球加速
+  - RULE-SET,Microsoft,DIRECT
+  - RULE-SET,Netflix,全球加速
+  - RULE-SET,Advertising,REJECT
+  - RULE-SET,Twitter,全球加速
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
+  - IP-CIDR,125.91.16.220/32,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,黑白名单

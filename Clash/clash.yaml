@@ -47,7 +47,7 @@ proxy-providers:
 
   Proxy:
     type: http
-    url: 【订阅】
+    url:  https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/All.yaml
     interval: 3600
     path: ./Proxy/List.yaml
     health-check:

@@ -123,6 +123,26 @@
     {
       "name":"GitHub",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/GitHub.png"
+    },
+    {
+      "name":"Loon",
+      "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/Loon.png"
+    },
+    {
+      "name":"Loonlite",
+      "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/Loon_Lite.png"
+    },
+    {
+      "name":"Surge3",
+      "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/Surge3.png"
+    },
+    {
+      "name":"Surge4",
+      "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/Surge4.png"
+    },
+    {
+      "name":"Surge5",
+      "url":"https://raw.githubusercontent.com/loonvip/2028/main/Color/Surge5.png"
     }
   ]
 }

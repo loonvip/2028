@@ -13,462 +13,251 @@ tun:
   auto-detect-interface: true
 ipv6: true
 proxies:
-  - name: iplc-02_10101
-    type: ss
-    server: 7690-hk45.hmbcloud-client.com
-    port: 10101
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 118.142.31.198_trojan_443
+  - name: 134.195.196.182-trojan
     type: trojan
-    server: 118.142.31.198
+    server: 134.195.196.182
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 118.142.55.62_trojan_443
+    udp: true
+  - name: 38.114.114.229-trojan
     type: trojan
-    server: 118.142.55.62
+    server: 38.114.114.229
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 161.81.165.127_trojan_443
+    udp: true
+  - name: 23.154.136.249-trojan
     type: trojan
-    server: 161.81.165.127
+    server: 23.154.136.249
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 38.180.94.83_trojan_443
+    udp: true
+  - name: 216.39.250.93-trojan
     type: trojan
-    server: 38.180.94.83
+    server: 216.39.250.93
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 202.64.1.234_trojan_443
-    type: trojan
-    server: 202.64.1.234
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
     udp: true
-    skip-cert-verify: true
-  - name: 113.52.132.88_trojan_443
-    type: trojan
-    server: 113.52.132.88
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
-    skip-cert-verify: true
-  - name: 183.179.168.53_trojan_443
-    type: trojan
-    server: 183.179.168.53
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
-    skip-cert-verify: true
-  - name: 118.142.55.54_trojan_443
-    type: trojan
-    server: 118.142.55.54
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
-    skip-cert-verify: true
-  - name: 220.246.88.144_trojan_443
-    type: trojan
-    server: 220.246.88.144
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: HK
-    udp: true
-    skip-cert-verify: true
-  - name: iplc-01_10086
-    type: ss
-    server: 7690-hk45.hmbcloud-client.com
-    port: 10086
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 162.213.25.228_trojan_443
-    type: trojan
-    server: 162.213.25.228
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: AE
-    udp: true
-    skip-cert-verify: true
-  - name: 38.180.86.89_trojan_443
-    type: trojan
-    server: 38.180.86.89
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: BE
-    udp: true
-    skip-cert-verify: true
-  - name: 216.238.113.159_trojan_443
-    type: trojan
-    server: 216.238.113.159
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: BR
-    udp: true
-    skip-cert-verify: true
-  - name: 179.43.174.201_trojan_443
-    type: trojan
-    server: 179.43.174.201
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: CH
-    udp: true
-    skip-cert-verify: true
-  - name: any.hmbiplc-02.com_ss_35796
-    type: ss
-    server: any.hmbiplc-02.com
-    port: 35796
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 95.179.168.12_trojan_443
-    type: trojan
-    server: 95.179.168.12
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: DE
-    udp: true
-    skip-cert-verify: true
-  - name: 65.20.102.54_trojan_443
-    type: trojan
-    server: 65.20.102.54
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: ES
-    udp: true
-    skip-cert-verify: true
-  - name: 45.32.145.158_trojan_443
-    type: trojan
-    server: 45.32.145.158
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: FR
-    udp: true
-    skip-cert-verify: true
-  - name: 78.141.238.82_trojan_443
-    type: trojan
-    server: 78.141.238.82
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: GB
-    udp: true
-    skip-cert-verify: true
-  - name: 139.84.170.46_trojan_443
-    type: trojan
-    server: 139.84.170.46
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: IN
-    udp: true
-    skip-cert-verify: true
-  - name: 139.59.36.223_trojan_443
-    type: trojan
-    server: 139.59.36.223
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: IN
-    udp: true
-    skip-cert-verify: true
-  - name: 139.84.144.10_trojan_443
-    type: trojan
-    server: 139.84.144.10
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: IN
-    udp: true
-    skip-cert-verify: true
-  - name: 65.20.67.50_trojan_443
-    type: trojan
-    server: 65.20.67.50
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: IN
-    udp: true
-    skip-cert-verify: true
-  - name: 38.180.54.47_trojan_443
-    type: trojan
-    server: 38.180.54.47
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: IT
-    udp: true
-    skip-cert-verify: true
-  - name: 45.76.212.47_trojan_443
-    type: trojan
-    server: 45.76.212.47
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: JP
-    udp: true
-    skip-cert-verify: true
-  - name: 212.50.249.247_trojan_443
-    type: trojan
-    server: 212.50.249.247
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: JP
-    udp: true
-    skip-cert-verify: true
-  - name: any.hmbiplc-02.com_ss_60283
-    type: ss
-    server: any.hmbiplc-02.com
-    port: 60283
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 45.78.60.206_trojan_443
-    type: trojan
-    server: 45.78.60.206
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: JP
-    udp: true
-    skip-cert-verify: true
-  - name: any.hmbiplc-02.com_ss_49475
-    type: ss
-    server: any.hmbiplc-02.com
-    port: 49475
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 158.247.220.63_trojan_443
-    type: trojan
-    server: 158.247.220.63
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: KR
-    udp: true
-    skip-cert-verify: true
-  - name: 78.141.219.18_trojan_443
-    type: trojan
-    server: 78.141.219.18
-    port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: NL
-    udp: true
-    skip-cert-verify: true
-  - name: 104.255.65.215_trojan_443
+  - name: 104.255.65.215-trojan
     type: trojan
     server: 104.255.65.215
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: NL
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 70.34.250.118_trojan_443
+    udp: true
+  - name: 45.78.60.206-trojan
     type: trojan
-    server: 70.34.250.118
+    server: 45.78.60.206
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: PL
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 185.4.64.225_trojan_443
+    udp: true
+  - name: 162.213.25.228-trojan
     type: trojan
-    server: 185.4.64.225
+    server: 162.213.25.228
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: RU
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 70.34.210.81_trojan_443
+    udp: true
+  - name: 47.242.6.143-trojan
     type: trojan
-    server: 70.34.210.81
+    server: 47.242.6.143
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: SE
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: any.hmbiplc-02.com_ss_46054
-    type: ss
-    server: any.hmbiplc-02.com
-    port: 46054
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    udp: false
-    cipher: aes-128-gcm
-  - name: 149.28.151.140_trojan_443
+    udp: true
+  - name: 23.26.253.221-trojan
     type: trojan
-    server: 149.28.151.140
+    server: 23.26.253.221
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: SG
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 38.180.105.115_trojan_443
+    udp: true
+  - name: 23.26.253.228-trojan
     type: trojan
-    server: 38.180.105.115
+    server: 23.26.253.228
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: TR
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 130.0.233.48_trojan_443
+    udp: true
+  - name: 2406:da1e:4ae:aa02:ca7:8c7b:4b64:5012-trojan
     type: trojan
-    server: 130.0.233.48
+    server: 2406:da1e:4ae:aa02:ca7:8c7b:4b64:5012
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: UA
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 104.160.18.251_trojan_443
+    udp: true
+  - name: 43.198.213.90-trojan
     type: trojan
-    server: 104.160.18.251
+    server: 43.198.213.90
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 104.160.18.197_trojan_443
+    udp: true
+  - name: 34.207.162.200-trojan
     type: trojan
-    server: 104.160.18.197
+    server: 34.207.162.200
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 104.160.19.29_trojan_443
+    udp: true
+  - name: 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan
     type: trojan
-    server: 104.160.19.29
+    server: 2600:1f1c:57e:8501:22ff:560d:89fe:eddf
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 172.82.16.26_trojan_443
+    udp: true
+  - name: 23.26.253.37-trojan
     type: trojan
-    server: 172.82.16.26
+    server: 23.26.253.37
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 154.23.240.85_trojan_443
+    udp: true
+  - name: 23.105.197.244-trojan
     type: trojan
-    server: 154.23.240.85
+    server: 23.105.197.244
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 154.23.240.94_trojan_443
+    udp: true
+  - name: 15.235.144.214-trojan
     type: trojan
-    server: 154.23.240.94
+    server: 15.235.144.214
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 154.23.240.89_trojan_443
+    udp: true
+  - name: 2402:1f00:8001:13d6::-trojan
     type: trojan
-    server: 154.23.240.89
+    server: "2402:1f00:8001:13d6::"
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 154.23.240.88_trojan_443
+    udp: true
+  - name: 104.129.182.32-trojan
     type: trojan
-    server: 154.23.240.88
+    server: 104.129.182.32
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 154.23.240.87_trojan_443
+    udp: true
+  - name: 139.59.36.223-trojan
     type: trojan
-    server: 154.23.240.87
+    server: 139.59.36.223
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 38.126.44.98_trojan_443
+    udp: true
+  - name: 38.180.64.38-trojan
     type: trojan
-    server: 38.126.44.98
+    server: 38.180.64.38
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 38.126.44.99_trojan_443
+    udp: true
+  - name: 37.1.192.239-trojan
     type: trojan
-    server: 38.126.44.99
+    server: 37.1.192.239
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: US
-    udp: true
+    password: installshield
     skip-cert-verify: true
-  - name: 139.84.228.27_trojan_443
+    udp: true
+  - name: 38.180.78.4-trojan
     type: trojan
-    server: 139.84.228.27
+    server: 38.180.78.4
     port: 443
-    sni: www.gpt123.one
-    password: 0b7f2639abd04eb7b2552cdcb239ceed
-    country: ZA
-    udp: true
+    password: installshield
     skip-cert-verify: true
+    udp: true
+  - name: 135.148.33.124-trojan
+    type: trojan
+    server: 135.148.33.124
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2604:2dc0:101:200::baf-trojan
+    type: trojan
+    server: 2604:2dc0:101:200::baf
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 149.56.111.158-trojan
+    type: trojan
+    server: 149.56.111.158
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2607:5300:201:3100::8543-trojan
+    type: trojan
+    server: 2607:5300:201:3100::8543
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 37.187.180.101-trojan
+    type: trojan
+    server: 37.187.180.101
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2001:41d0:404:300::1294-trojan
+    type: trojan
+    server: 2001:41d0:404:300::1294
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 51.68.196.7-trojan
+    type: trojan
+    server: 51.68.196.7
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2001:41d0:801:2000::2f22-trojan
+    type: trojan
+    server: 2001:41d0:801:2000::2f22
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 139.99.155.209-trojan
+    type: trojan
+    server: 139.99.155.209
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2402:1f00:8100:400::39d-trojan
+    type: trojan
+    server: 2402:1f00:8100:400::39d
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 65.20.67.50-trojan
+    type: trojan
+    server: 65.20.67.50
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
+  - name: 2401:c080:2400:1c24:5400:4ff:fe8e:6128-trojan
+    type: trojan
+    server: 2401:c080:2400:1c24:5400:4ff:fe8e:6128
+    port: 443
+    password: installshield
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: netflix
     type: url-test
@@ -476,305 +265,238 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - iplc-02_10101
-      - 118.142.31.198_trojan_443
-      - 118.142.55.62_trojan_443
-      - 161.81.165.127_trojan_443
-      - 38.180.94.83_trojan_443
-      - 183.179.168.53_trojan_443
-      - 118.142.55.54_trojan_443
-      - iplc-01_10086
-      - 162.213.25.228_trojan_443
-      - 38.180.86.89_trojan_443
-      - 104.255.65.215_trojan_443
+      - 104.255.65.215-trojan
+      - 162.213.25.228-trojan
+      - 38.180.78.4-trojan
   - name: openai
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - any.hmbiplc-02.com_ss_35796
-      - any.hmbiplc-02.com_ss_60283
-      - any.hmbiplc-02.com_ss_49475
-      - any.hmbiplc-02.com_ss_46054
-      - 104.160.18.251_trojan_443
-      - 104.160.18.197_trojan_443
-      - 104.160.19.29_trojan_443
-      - 172.82.16.26_trojan_443
-      - 154.23.240.85_trojan_443
-      - 154.23.240.94_trojan_443
-      - 154.23.240.89_trojan_443
-      - 154.23.240.88_trojan_443
-      - 154.23.240.87_trojan_443
-  - name: disney
+      - 134.195.196.182-trojan
+      - 38.114.114.229-trojan
+      - 23.154.136.249-trojan
+      - 216.39.250.93-trojan
+      - 104.255.65.215-trojan
+      - 45.78.60.206-trojan
+      - 162.213.25.228-trojan
+      - 23.26.253.221-trojan
+      - 23.26.253.228-trojan
+      - 34.207.162.200-trojan
+      - 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan
+      - 23.26.253.37-trojan
+      - 23.105.197.244-trojan
+      - 15.235.144.214-trojan
+      - 2402:1f00:8001:13d6::-trojan
+      - 104.129.182.32-trojan
+      - 139.59.36.223-trojan
+      - 38.180.64.38-trojan
+      - 37.1.192.239-trojan
+      - 38.180.78.4-trojan
+      - 135.148.33.124-trojan
+      - 2604:2dc0:101:200::baf-trojan
+      - 149.56.111.158-trojan
+      - 2607:5300:201:3100::8543-trojan
+      - 37.187.180.101-trojan
+      - 2001:41d0:404:300::1294-trojan
+      - 51.68.196.7-trojan
+      - 2001:41d0:801:2000::2f22-trojan
+      - 139.99.155.209-trojan
+      - 2402:1f00:8100:400::39d-trojan
+  - name: CA
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - iplc-02_10101
-      - iplc-01_10086
-      - 104.160.18.251_trojan_443
-      - 104.160.18.197_trojan_443
-      - 104.160.19.29_trojan_443
-      - 172.82.16.26_trojan_443
-      - 154.23.240.85_trojan_443
-      - 154.23.240.94_trojan_443
-      - 154.23.240.89_trojan_443
-      - 154.23.240.88_trojan_443
-      - 154.23.240.87_trojan_443
-  - name: cn2
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 154.23.240.87_trojan_443
-      - 154.23.240.85_trojan_443
-      - 38.126.44.99_trojan_443
-      - 104.160.18.251_trojan_443
-      - 38.126.44.98_trojan_443
-      - 172.82.16.26_trojan_443
-      - 104.160.18.197_trojan_443
-      - 154.23.240.88_trojan_443
-      - 104.255.65.215_trojan_443
-      - 154.23.240.94_trojan_443
-      - 104.160.19.29_trojan_443
-      - 154.23.240.89_trojan_443
-  - name: iplc
-    type: url-test
-    url: https://speedtest.gpt123.one:28443/g204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - iplc-01_10086
-      - iplc-02_10101
-  - name: HK
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 38.180.94.83_trojan_443
-      - 118.142.55.62_trojan_443
-      - 161.81.165.127_trojan_443
-      - iplc-02_10101
-      - 202.64.1.234_trojan_443
-      - 113.52.132.88_trojan_443
-      - iplc-01_10086
-      - 220.246.88.144_trojan_443
-      - 118.142.31.198_trojan_443
-      - 183.179.168.53_trojan_443
-      - 118.142.55.54_trojan_443
-  - name: AE
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 162.213.25.228_trojan_443
-  - name: BE
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 38.180.86.89_trojan_443
-  - name: BR
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 216.238.113.159_trojan_443
-  - name: CH
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 179.43.174.201_trojan_443
-  - name: DE
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - any.hmbiplc-02.com_ss_35796
-      - 95.179.168.12_trojan_443
-  - name: ES
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 65.20.102.54_trojan_443
-  - name: FR
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 45.32.145.158_trojan_443
-  - name: GB
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 78.141.238.82_trojan_443
-  - name: IN
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 139.84.170.46_trojan_443
-      - 139.59.36.223_trojan_443
-      - 139.84.144.10_trojan_443
-      - 65.20.67.50_trojan_443
-  - name: IT
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 38.180.54.47_trojan_443
-  - name: JP
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 45.76.212.47_trojan_443
-      - 212.50.249.247_trojan_443
-      - any.hmbiplc-02.com_ss_60283
-      - 45.78.60.206_trojan_443
-  - name: KR
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - any.hmbiplc-02.com_ss_49475
-      - 158.247.220.63_trojan_443
+      - 134.195.196.182-trojan
+      - 216.39.250.93-trojan
+      - 104.129.182.32-trojan
+      - 149.56.111.158-trojan
+      - 2607:5300:201:3100::8543-trojan
   - name: NL
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 78.141.219.18_trojan_443
-      - 104.255.65.215_trojan_443
-  - name: PL
+      - 104.255.65.215-trojan
+  - name: JP
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 70.34.250.118_trojan_443
-  - name: RU
+      - 45.78.60.206-trojan
+  - name: AE
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 185.4.64.225_trojan_443
-  - name: SE
+      - 162.213.25.228-trojan
+  - name: HK
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 70.34.210.81_trojan_443
+      - 47.242.6.143-trojan
+      - 2406:da1e:4ae:aa02:ca7:8c7b:4b64:5012-trojan
+      - 43.198.213.90-trojan
   - name: SG
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - any.hmbiplc-02.com_ss_46054
-      - 149.28.151.140_trojan_443
-  - name: TR
+      - 15.235.144.214-trojan
+      - 2402:1f00:8001:13d6::-trojan
+  - name: IN
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 38.180.105.115_trojan_443
-  - name: UA
+      - 139.59.36.223-trojan
+      - 65.20.67.50-trojan
+      - 2401:c080:2400:1c24:5400:4ff:fe8e:6128-trojan
+  - name: DE
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 130.0.233.48_trojan_443
+      - 37.1.192.239-trojan
+  - name: FR
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 37.187.180.101-trojan
+      - 2001:41d0:404:300::1294-trojan
+      - 51.68.196.7-trojan
+      - 2001:41d0:801:2000::2f22-trojan
+  - name: AU
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 139.99.155.209-trojan
+      - 2402:1f00:8100:400::39d-trojan
+  - name: 38.114.114.229-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 38.114.114.229-trojan
+  - name: 23.154.136.249-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 23.154.136.249-trojan
+  - name: 23.26.253.221-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 23.26.253.221-trojan
+  - name: 23.26.253.228-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 23.26.253.228-trojan
+  - name: 34.207.162.200-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 34.207.162.200-trojan
+  - name: 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan
+  - name: 23.26.253.37-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 23.26.253.37-trojan
+  - name: 23.105.197.244-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 23.105.197.244-trojan
+  - name: 38.180.64.38-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 38.180.64.38-trojan
+  - name: 38.180.78.4-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 38.180.78.4-trojan
+  - name: 135.148.33.124-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 135.148.33.124-trojan
+  - name: 2604:2dc0:101:200::baf-trojan-relay
+    type: relay
+    proxies:
+      - HK
+      - 2604:2dc0:101:200::baf-trojan
   - name: US
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 104.160.18.251_trojan_443
-      - 104.160.18.197_trojan_443
-      - 104.160.19.29_trojan_443
-      - 172.82.16.26_trojan_443
-      - 154.23.240.85_trojan_443
-      - 154.23.240.94_trojan_443
-      - 154.23.240.89_trojan_443
-      - 154.23.240.88_trojan_443
-      - 154.23.240.87_trojan_443
-      - 38.126.44.98_trojan_443
-      - 38.126.44.99_trojan_443
-  - name: ZA
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - 139.84.228.27_trojan_443
-  - name: all
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 100
-    proxies:
-      - HK
-      - AE
-      - BE
-      - BR
-      - CH
-      - DE
-      - ES
-      - FR
-      - GB
-      - IN
-      - IT
-      - JP
-      - KR
-      - NL
-      - PL
-      - RU
-      - SE
-      - SG
-      - TR
-      - UA
-      - US
-      - ZA
+      - 38.114.114.229-trojan-relay
+      - 23.154.136.249-trojan-relay
+      - 23.26.253.221-trojan-relay
+      - 23.26.253.228-trojan-relay
+      - 34.207.162.200-trojan-relay
+      - 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan-relay
+      - 23.26.253.37-trojan-relay
+      - 23.105.197.244-trojan-relay
+      - 38.180.64.38-trojan-relay
+      - 38.180.78.4-trojan-relay
+      - 135.148.33.124-trojan-relay
+      - 2604:2dc0:101:200::baf-trojan-relay
+      - 38.114.114.229-trojan
+      - 23.154.136.249-trojan
+      - 23.26.253.221-trojan
+      - 23.26.253.228-trojan
+      - 34.207.162.200-trojan
+      - 2600:1f1c:57e:8501:22ff:560d:89fe:eddf-trojan
+      - 23.26.253.37-trojan
+      - 23.105.197.244-trojan
+      - 38.180.64.38-trojan
+      - 38.180.78.4-trojan
+      - 135.148.33.124-trojan
+      - 2604:2dc0:101:200::baf-trojan
   - name: Proxy
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - iplc
-      - cn2
       - HK
+      - US
+      - SG
+      - NL
+      - JP
+      - IN
+      - FR
+      - DE
+      - CA
+      - AU
+      - AE
 rules:
-  - DOMAIN-SUFFIX,api.flashxvpn.com,DIRECT
-  - DOMAIN-SUFFIX,vip.flashxvpn.com,DIRECT
-  - DOMAIN-SUFFIX,api.recreation-slot-circle.buzz,DIRECT
-  - DOMAIN-SUFFIX,api.mastur.xyz,DIRECT
+  - DOMAIN-KEYWORD,ovh,US
+  - DOMAIN,bard.google.com,US
   - DOMAIN-KEYWORD,openai,openai
   - DOMAIN-SUFFIX,amazonaws.com,Proxy
   - DOMAIN-SUFFIX,amazon.com,Proxy
@@ -1133,7 +855,6 @@ rules:
   - DOMAIN-SUFFIX,wegame.com.cn,DIRECT
   - DOMAIN-SUFFIX,wegamedeveloper.com,DIRECT
   - DOMAIN-SUFFIX,wegameplus.com,DIRECT
-  - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
   - DOMAIN-SUFFIX,weiyun.com,DIRECT
   - DOMAIN-SUFFIX,werepository.com.cn,DIRECT
   - DOMAIN-SUFFIX,weui.io,DIRECT
@@ -1349,161 +1070,181 @@ rules:
   - DOMAIN-SUFFIX,nflxso.net,netflix
   - DOMAIN-SUFFIX,nflxvideo.net,netflix
   - DOMAIN-SUFFIX,netflix.com.edgesuite.net,netflix
-  - DOMAIN-SUFFIX,20thcenturystudios.com.au,disney
-  - DOMAIN-SUFFIX,20thcenturystudios.com.br,disney
-  - DOMAIN-SUFFIX,20thcenturystudios.jp,disney
-  - DOMAIN-SUFFIX,abc-studios.com,disney
-  - DOMAIN-SUFFIX,abc.com,disney
-  - DOMAIN-SUFFIX,adventuresbydisney.com,disney
-  - DOMAIN-SUFFIX,babble.com,disney
-  - DOMAIN-SUFFIX,babyzone.com,disney
-  - DOMAIN-SUFFIX,bamgrid.com,disney
-  - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,disney
-  - DOMAIN-SUFFIX,dilcdn.com,disney
-  - DOMAIN-SUFFIX,disney-asia.com,disney
-  - DOMAIN-SUFFIX,disney-discount.com,disney
-  - DOMAIN-SUFFIX,disney-plus.net,disney
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,disney
-  - DOMAIN-SUFFIX,disney-studio.com,disney
-  - DOMAIN-SUFFIX,disney-studio.net,disney
-  - DOMAIN-SUFFIX,disney.asia,disney
-  - DOMAIN-SUFFIX,disney.be,disney
-  - DOMAIN-SUFFIX,disney.bg,disney
-  - DOMAIN-SUFFIX,disney.ca,disney
-  - DOMAIN-SUFFIX,disney.ch,disney
-  - DOMAIN-SUFFIX,disney.co.il,disney
-  - DOMAIN-SUFFIX,disney.co.jp,disney
-  - DOMAIN-SUFFIX,disney.co.kr,disney
-  - DOMAIN-SUFFIX,disney.co.th,disney
-  - DOMAIN-SUFFIX,disney.co.uk,disney
-  - DOMAIN-SUFFIX,disney.co.za,disney
-  - DOMAIN-SUFFIX,disney.com,disney
-  - DOMAIN-SUFFIX,disney.com.au,disney
-  - DOMAIN-SUFFIX,disney.com.br,disney
-  - DOMAIN-SUFFIX,disney.com.hk,disney
-  - DOMAIN-SUFFIX,disney.com.tw,disney
-  - DOMAIN-SUFFIX,disney.cz,disney
-  - DOMAIN-SUFFIX,disney.de,disney
-  - DOMAIN-SUFFIX,disney.dk,disney
-  - DOMAIN-SUFFIX,disney.es,disney
-  - DOMAIN-SUFFIX,disney.fi,disney
-  - DOMAIN-SUFFIX,disney.fr,disney
-  - DOMAIN-SUFFIX,disney.gr,disney
-  - DOMAIN-SUFFIX,disney.hu,disney
-  - DOMAIN-SUFFIX,disney.id,disney
-  - DOMAIN-SUFFIX,disney.in,disney
-  - DOMAIN-SUFFIX,disney.io,disney
-  - DOMAIN-SUFFIX,disney.it,disney
-  - DOMAIN-SUFFIX,disney.my,disney
-  - DOMAIN-SUFFIX,disney.my.sentry.io,disney
-  - DOMAIN-SUFFIX,disney.nl,disney
-  - DOMAIN-SUFFIX,disney.no,disney
-  - DOMAIN-SUFFIX,disney.ph,disney
-  - DOMAIN-SUFFIX,disney.pl,disney
-  - DOMAIN-SUFFIX,disney.pt,disney
-  - DOMAIN-SUFFIX,disney.ro,disney
-  - DOMAIN-SUFFIX,disney.ru,disney
-  - DOMAIN-SUFFIX,disney.se,disney
-  - DOMAIN-SUFFIX,disney.sg,disney
-  - DOMAIN-SUFFIX,disneyadsales.com,disney
-  - DOMAIN-SUFFIX,disneyarena.com,disney
-  - DOMAIN-SUFFIX,disneyaulani.com,disney
-  - DOMAIN-SUFFIX,disneybaby.com,disney
-  - DOMAIN-SUFFIX,disneycareers.com,disney
-  - DOMAIN-SUFFIX,disneychannelonstage.com,disney
-  - DOMAIN-SUFFIX,disneychannelroadtrip.com,disney
-  - DOMAIN-SUFFIX,disneycruisebrasil.com,disney
-  - DOMAIN-SUFFIX,disneyenconcert.com,disney
-  - DOMAIN-SUFFIX,disneyiejobs.com,disney
-  - DOMAIN-SUFFIX,disneyinflight.com,disney
-  - DOMAIN-SUFFIX,disneyinternational.com,disney
-  - DOMAIN-SUFFIX,disneyinternationalhd.com,disney
-  - DOMAIN-SUFFIX,disneyjunior.com,disney
-  - DOMAIN-SUFFIX,disneyjuniortreataday.com,disney
-  - DOMAIN-SUFFIX,disneylatino.com,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.co.il,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.co.uk,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.co.za,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.de,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.es,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.fr,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.gen.tr,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.gr,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.it,disney
-  - DOMAIN-SUFFIX,disneymagicmoments.pl,disney
-  - DOMAIN-SUFFIX,disneymagicmomentsme.com,disney
-  - DOMAIN-SUFFIX,disneyme.com,disney
-  - DOMAIN-SUFFIX,disneymeetingsandevents.com,disney
-  - DOMAIN-SUFFIX,disneymovieinsiders.com,disney
-  - DOMAIN-SUFFIX,disneymusicpromotion.com,disney
-  - DOMAIN-SUFFIX,disneynewseries.com,disney
-  - DOMAIN-SUFFIX,disneynow.com,disney
-  - DOMAIN-SUFFIX,disneypeoplesurveys.com,disney
-  - DOMAIN-SUFFIX,disneyplus.bn5x.net,disney
-  - DOMAIN-SUFFIX,disneyplus.com,disney
-  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,disney
-  - DOMAIN-SUFFIX,disneyredirects.com,disney
-  - DOMAIN-SUFFIX,disneysrivieraresort.com,disney
-  - DOMAIN-SUFFIX,disneystore.com,disney
-  - DOMAIN-SUFFIX,disneystreaming.com,disney
-  - DOMAIN-SUFFIX,disneysubscription.com,disney
-  - DOMAIN-SUFFIX,disneytickets.co.uk,disney
-  - DOMAIN-SUFFIX,disneyturkiye.com.tr,disney
-  - DOMAIN-SUFFIX,disneytvajobs.com,disney
-  - DOMAIN-SUFFIX,disneyworld-go.com,disney
-  - DOMAIN-SUFFIX,dmed.technology,disney
-  - DOMAIN-SUFFIX,dssott.com,disney
-  - DOMAIN-SUFFIX,dtci.co,disney
-  - DOMAIN-SUFFIX,dtci.technology,disney
-  - DOMAIN-SUFFIX,edgedatg.com,disney
-  - DOMAIN-SUFFIX,espn.co.uk,disney
-  - DOMAIN-SUFFIX,espn.com,disney
-  - DOMAIN-SUFFIX,espn.net,disney
-  - DOMAIN-SUFFIX,espncdn.com,disney
-  - DOMAIN-SUFFIX,espnqa.com,disney
-  - DOMAIN-SUFFIX,go-disneyworldgo.com,disney
-  - DOMAIN-SUFFIX,go.com,disney
-  - DOMAIN-SUFFIX,hotstar-cdn.net,disney
-  - DOMAIN-SUFFIX,hotstar-labs.com,disney
-  - DOMAIN-SUFFIX,hotstar.com,disney
-  - DOMAIN-SUFFIX,hotstarext.com,disney
-  - DOMAIN-SUFFIX,hsprepack.akamaized.net,disney
-  - DOMAIN-SUFFIX,marvel.com,disney
-  - DOMAIN-SUFFIX,marvel10thanniversary.com,disney
-  - DOMAIN-SUFFIX,marveldimensionofheroes.com,disney
-  - DOMAIN-SUFFIX,marvelparty.net,disney
-  - DOMAIN-SUFFIX,marvelpinball.com,disney
-  - DOMAIN-SUFFIX,marvelsdoubleagent.com,disney
-  - DOMAIN-SUFFIX,marvelspotlightplays.com,disney
-  - DOMAIN-SUFFIX,marvelsuperheroseptember.com,disney
-  - DOMAIN-SUFFIX,marvelsuperwar.com,disney
-  - DOMAIN-SUFFIX,mickey.tv,disney
-  - DOMAIN-SUFFIX,moviesanywhere.com,disney
-  - DOMAIN-SUFFIX,natgeomaps.com,disney
-  - DOMAIN-SUFFIX,nationalgeographic.com,disney
-  - DOMAIN-SUFFIX,nationalgeographicpartners.com,disney
-  - DOMAIN-SUFFIX,ngeo.com,disney
-  - DOMAIN-SUFFIX,nomadlandmovie.ch,disney
-  - DOMAIN-SUFFIX,playmation.com,disney
-  - DOMAIN-SUFFIX,shopdisney.com,disney
-  - DOMAIN-SUFFIX,shops-disney.com,disney
-  - DOMAIN-SUFFIX,sorcerersarena.com,disney
-  - DOMAIN-SUFFIX,spaindisney.com,disney
-  - DOMAIN-SUFFIX,star-brasil.com,disney
-  - DOMAIN-SUFFIX,star-latam.com,disney
-  - DOMAIN-SUFFIX,starott.com,disney
-  - DOMAIN-SUFFIX,starplus.com,disney
-  - DOMAIN-SUFFIX,starwars.com,disney
-  - DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,disney
-  - DOMAIN-SUFFIX,starwarskids.com,disney
-  - DOMAIN-SUFFIX,streamingdisney.net,disney
-  - DOMAIN-SUFFIX,themarvelexperiencetour.com,disney
-  - DOMAIN-SUFFIX,thestationbymaker.com,disney
-  - DOMAIN-SUFFIX,thisispolaris.com,disney
-  - DOMAIN-SUFFIX,watchdisneyfe.com,disney
-  - DOMAIN-SUFFIX,watchespn.com,disney
-  - DOMAIN-SUFFIX,espn.hb.omtrdc.net,disney
-  - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,disney
+  - DOMAIN-SUFFIX,20thcenturystudios.com.au,US
+  - DOMAIN-SUFFIX,20thcenturystudios.com.br,US
+  - DOMAIN-SUFFIX,20thcenturystudios.jp,US
+  - DOMAIN-SUFFIX,abc-studios.com,US
+  - DOMAIN-SUFFIX,abc.com,US
+  - DOMAIN-SUFFIX,adventuresbydisney.com,US
+  - DOMAIN-SUFFIX,babble.com,US
+  - DOMAIN-SUFFIX,babyzone.com,US
+  - DOMAIN-SUFFIX,bamgrid.com,US
+  - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,US
+  - DOMAIN-SUFFIX,dilcdn.com,US
+  - DOMAIN-SUFFIX,disney-asia.com,US
+  - DOMAIN-SUFFIX,disney-discount.com,US
+  - DOMAIN-SUFFIX,disney-plus.net,US
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,US
+  - DOMAIN-SUFFIX,disney-studio.com,US
+  - DOMAIN-SUFFIX,disney-studio.net,US
+  - DOMAIN-SUFFIX,disney.asia,US
+  - DOMAIN-SUFFIX,disney.be,US
+  - DOMAIN-SUFFIX,disney.bg,US
+  - DOMAIN-SUFFIX,disney.ca,US
+  - DOMAIN-SUFFIX,disney.ch,US
+  - DOMAIN-SUFFIX,disney.co.il,US
+  - DOMAIN-SUFFIX,disney.co.jp,US
+  - DOMAIN-SUFFIX,disney.co.kr,US
+  - DOMAIN-SUFFIX,disney.co.th,US
+  - DOMAIN-SUFFIX,disney.co.uk,US
+  - DOMAIN-SUFFIX,disney.co.za,US
+  - DOMAIN-SUFFIX,disney.com,US
+  - DOMAIN-SUFFIX,disney.com.au,US
+  - DOMAIN-SUFFIX,disney.com.br,US
+  - DOMAIN-SUFFIX,disney.com.hk,US
+  - DOMAIN-SUFFIX,disney.com.tw,US
+  - DOMAIN-SUFFIX,disney.cz,US
+  - DOMAIN-SUFFIX,disney.de,US
+  - DOMAIN-SUFFIX,disney.dk,US
+  - DOMAIN-SUFFIX,disney.es,US
+  - DOMAIN-SUFFIX,disney.fi,US
+  - DOMAIN-SUFFIX,disney.fr,US
+  - DOMAIN-SUFFIX,disney.gr,US
+  - DOMAIN-SUFFIX,disney.hu,US
+  - DOMAIN-SUFFIX,disney.id,US
+  - DOMAIN-SUFFIX,disney.in,US
+  - DOMAIN-SUFFIX,disney.io,US
+  - DOMAIN-SUFFIX,disney.it,US
+  - DOMAIN-SUFFIX,disney.my,US
+  - DOMAIN-SUFFIX,disney.my.sentry.io,US
+  - DOMAIN-SUFFIX,disney.nl,US
+  - DOMAIN-SUFFIX,disney.no,US
+  - DOMAIN-SUFFIX,disney.ph,US
+  - DOMAIN-SUFFIX,disney.pl,US
+  - DOMAIN-SUFFIX,disney.pt,US
+  - DOMAIN-SUFFIX,disney.ro,US
+  - DOMAIN-SUFFIX,disney.ru,US
+  - DOMAIN-SUFFIX,disney.se,US
+  - DOMAIN-SUFFIX,disney.sg,US
+  - DOMAIN-SUFFIX,disneyadsales.com,US
+  - DOMAIN-SUFFIX,disneyarena.com,US
+  - DOMAIN-SUFFIX,disneyaulani.com,US
+  - DOMAIN-SUFFIX,disneybaby.com,US
+  - DOMAIN-SUFFIX,disneycareers.com,US
+  - DOMAIN-SUFFIX,disneychannelonstage.com,US
+  - DOMAIN-SUFFIX,disneychannelroadtrip.com,US
+  - DOMAIN-SUFFIX,disneycruisebrasil.com,US
+  - DOMAIN-SUFFIX,disneyenconcert.com,US
+  - DOMAIN-SUFFIX,disneyiejobs.com,US
+  - DOMAIN-SUFFIX,disneyinflight.com,US
+  - DOMAIN-SUFFIX,disneyinternational.com,US
+  - DOMAIN-SUFFIX,disneyinternationalhd.com,US
+  - DOMAIN-SUFFIX,disneyjunior.com,US
+  - DOMAIN-SUFFIX,disneyjuniortreataday.com,US
+  - DOMAIN-SUFFIX,disneylatino.com,US
+  - DOMAIN-SUFFIX,disneymagicmoments.co.il,US
+  - DOMAIN-SUFFIX,disneymagicmoments.co.uk,US
+  - DOMAIN-SUFFIX,disneymagicmoments.co.za,US
+  - DOMAIN-SUFFIX,disneymagicmoments.de,US
+  - DOMAIN-SUFFIX,disneymagicmoments.es,US
+  - DOMAIN-SUFFIX,disneymagicmoments.fr,US
+  - DOMAIN-SUFFIX,disneymagicmoments.gen.tr,US
+  - DOMAIN-SUFFIX,disneymagicmoments.gr,US
+  - DOMAIN-SUFFIX,disneymagicmoments.it,US
+  - DOMAIN-SUFFIX,disneymagicmoments.pl,US
+  - DOMAIN-SUFFIX,disneymagicmomentsme.com,US
+  - DOMAIN-SUFFIX,disneyme.com,US
+  - DOMAIN-SUFFIX,disneymeetingsandevents.com,US
+  - DOMAIN-SUFFIX,disneymovieinsiders.com,US
+  - DOMAIN-SUFFIX,disneymusicpromotion.com,US
+  - DOMAIN-SUFFIX,disneynewseries.com,US
+  - DOMAIN-SUFFIX,disneynow.com,US
+  - DOMAIN-SUFFIX,disneypeoplesurveys.com,US
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net,US
+  - DOMAIN-SUFFIX,disneyplus.com,US
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,US
+  - DOMAIN-SUFFIX,disneyredirects.com,US
+  - DOMAIN-SUFFIX,disneysrivieraresort.com,US
+  - DOMAIN-SUFFIX,disneystore.com,US
+  - DOMAIN-SUFFIX,disneystreaming.com,US
+  - DOMAIN-SUFFIX,disneysubscription.com,US
+  - DOMAIN-SUFFIX,disneytickets.co.uk,US
+  - DOMAIN-SUFFIX,disneyturkiye.com.tr,US
+  - DOMAIN-SUFFIX,disneytvajobs.com,US
+  - DOMAIN-SUFFIX,disneyworld-go.com,US
+  - DOMAIN-SUFFIX,dmed.technology,US
+  - DOMAIN-SUFFIX,dssott.com,US
+  - DOMAIN-SUFFIX,dtci.co,US
+  - DOMAIN-SUFFIX,dtci.technology,US
+  - DOMAIN-SUFFIX,edgedatg.com,US
+  - DOMAIN-SUFFIX,espn.co.uk,US
+  - DOMAIN-SUFFIX,espn.com,US
+  - DOMAIN-SUFFIX,espn.net,US
+  - DOMAIN-SUFFIX,espncdn.com,US
+  - DOMAIN-SUFFIX,espnqa.com,US
+  - DOMAIN-SUFFIX,go-disneyworldgo.com,US
+  - DOMAIN-SUFFIX,go.com,US
+  - DOMAIN-SUFFIX,hotstar-cdn.net,US
+  - DOMAIN-SUFFIX,hotstar-labs.com,US
+  - DOMAIN-SUFFIX,hotstar.com,US
+  - DOMAIN-SUFFIX,hotstarext.com,US
+  - DOMAIN-SUFFIX,hsprepack.akamaized.net,US
+  - DOMAIN-SUFFIX,marvel.com,US
+  - DOMAIN-SUFFIX,marvel10thanniversary.com,US
+  - DOMAIN-SUFFIX,marveldimensionofheroes.com,US
+  - DOMAIN-SUFFIX,marvelparty.net,US
+  - DOMAIN-SUFFIX,marvelpinball.com,US
+  - DOMAIN-SUFFIX,marvelsdoubleagent.com,US
+  - DOMAIN-SUFFIX,marvelspotlightplays.com,US
+  - DOMAIN-SUFFIX,marvelsuperheroseptember.com,US
+  - DOMAIN-SUFFIX,marvelsuperwar.com,US
+  - DOMAIN-SUFFIX,mickey.tv,US
+  - DOMAIN-SUFFIX,moviesanywhere.com,US
+  - DOMAIN-SUFFIX,natgeomaps.com,US
+  - DOMAIN-SUFFIX,nationalgeographic.com,US
+  - DOMAIN-SUFFIX,nationalgeographicpartners.com,US
+  - DOMAIN-SUFFIX,ngeo.com,US
+  - DOMAIN-SUFFIX,nomadlandmovie.ch,US
+  - DOMAIN-SUFFIX,playmation.com,US
+  - DOMAIN-SUFFIX,shopdisney.com,US
+  - DOMAIN-SUFFIX,shops-disney.com,US
+  - DOMAIN-SUFFIX,sorcerersarena.com,US
+  - DOMAIN-SUFFIX,spaindisney.com,US
+  - DOMAIN-SUFFIX,star-brasil.com,US
+  - DOMAIN-SUFFIX,star-latam.com,US
+  - DOMAIN-SUFFIX,starott.com,US
+  - DOMAIN-SUFFIX,starplus.com,US
+  - DOMAIN-SUFFIX,starwars.com,US
+  - DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,US
+  - DOMAIN-SUFFIX,starwarskids.com,US
+  - DOMAIN-SUFFIX,streamingdisney.net,US
+  - DOMAIN-SUFFIX,themarvelexperiencetour.com,US
+  - DOMAIN-SUFFIX,thestationbymaker.com,US
+  - DOMAIN-SUFFIX,thisispolaris.com,US
+  - DOMAIN-SUFFIX,watchdisneyfe.com,US
+  - DOMAIN-SUFFIX,watchespn.com,US
+  - DOMAIN-SUFFIX,espn.hb.omtrdc.net,US
+  - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,US
+  - DOMAIN-SUFFIX,byspotify.com,US
+  - DOMAIN-SUFFIX,pscdn.co,US
+  - DOMAIN-SUFFIX,scdn.co,US
+  - DOMAIN-SUFFIX,spoti.fi,US
+  - DOMAIN-SUFFIX,spotify-everywhere.com,US
+  - DOMAIN-SUFFIX,spotify.com,US
+  - DOMAIN-SUFFIX,spotify.design,US
+  - DOMAIN-SUFFIX,spotifycdn.com,US
+  - DOMAIN-SUFFIX,spotifycdn.net,US
+  - DOMAIN-SUFFIX,spotifycharts.com,US
+  - DOMAIN-SUFFIX,spotifycodes.com,US
+  - DOMAIN-SUFFIX,spotifyforbrands.com,US
+  - DOMAIN-SUFFIX,spotifyjobs.com,US
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,US
+  - DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net,US
+  - DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net,US
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,US
+  - DOMAIN-SUFFIX,spotify.com.edgesuite.net,US
+  - DOMAIN-SUFFIX,spotify.map.fastly.net,US
+  - DOMAIN-SUFFIX,spotify.map.fastlylb.net,US
   - DOMAIN-SUFFIX,aboutfacebook.com,Proxy
   - DOMAIN-SUFFIX,accessfacebookfromschool.com,Proxy
   - DOMAIN-SUFFIX,acebooik.com,Proxy
@@ -1922,7 +1663,6 @@ rules:
   - DOMAIN-SUFFIX,githubapp.com,Proxy
   - DOMAIN-SUFFIX,githubassets.com,Proxy
   - DOMAIN-SUFFIX,githubhackathon.com,Proxy
-  - DOMAIN-SUFFIX,githubnext.com,Proxy
   - DOMAIN-SUFFIX,githubpreview.dev,Proxy
   - DOMAIN-SUFFIX,githubstatus.com,Proxy
   - DOMAIN-SUFFIX,githubuniverse.com,Proxy
@@ -3033,7 +2773,6 @@ rules:
   - DOMAIN-SUFFIX,githubapp.com,Proxy
   - DOMAIN-SUFFIX,githubassets.com,Proxy
   - DOMAIN-SUFFIX,githubhackathon.com,Proxy
-  - DOMAIN-SUFFIX,githubnext.com,Proxy
   - DOMAIN-SUFFIX,githubpreview.dev,Proxy
   - DOMAIN-SUFFIX,githubstatus.com,Proxy
   - DOMAIN-SUFFIX,githubuniverse.com,Proxy

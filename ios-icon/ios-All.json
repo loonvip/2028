@@ -3,27 +3,27 @@
   "description":"123",
   "icons": [
     {
-      "name":"Microsoft",
+      "name":"Facebook",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Facebook.png"
     },
     {
-      "name":"Globe",
+      "name":"GitHubDesktop",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/GitHubDesktop.png"
     },
     {
-      "name":"Infuse",
+      "name":"Google",
       "url": "https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Google.png"
     },
     {
-      "name":"Stash2",
+      "name":"Instagram_Alt",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Instagram_Alt.png"
     },
     {
-      "name":"Final",
+      "name":"Netflix",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Netflix.png"
     },
     {
-      "name":"Cloudflare",
+      "name":"Speedtest",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Speedtest.png"
     },
     {
@@ -31,24 +31,24 @@
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Spotify.png"
     },
     {
-      "name":"WARP",
+      "name":"Spotify_Alt",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Spotify_Alt.png"
     },
     {
-      "name":"Tiktok++",
+      "name":"Telegram",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Telegram.png"
     },
     {
-      "name":"Tiktok2",
+      "name":"Twitter",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/Twitter.png"
     },
     {
-      "name":"Tiktok",
+      "name":"WeChat",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/WeChat.png"
     },
     {
-      "name":"Twitter",
+      "name":"YouTube",
       "url":"https://raw.githubusercontent.com/loonvip/2028/main/ios-icon/YouTube.png"
     }
-   ]
+  ]
 }

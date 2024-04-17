@@ -24,8 +24,8 @@ if ($response.statusCode !== 200) {
   }
   
   function Area_check(para) {
-    if(para=="中华民国"){
-    return "台湾"
+    if(para=="中華民國"){
+    return "臺灣"
     } else
     {
     return para
@@ -40,7 +40,7 @@ if ($response.statusCode !== 200) {
   
   let title = `${flags.get(obj['countryCode'])}  ${Area_check(obj['country'])} ${City_ValidCheck(obj['city'])}`
   
-  let subtitle = `🐾   ${ISP_ValidCheck(obj['org'])}`;
+  let subtitle = `⛈  ${ISP_ValidCheck(obj['org'])}`;
   
   let ip = obj['query'];
   

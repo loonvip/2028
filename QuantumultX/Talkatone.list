@@ -1,6 +1,11 @@
-HOST-SUFFIX, tktn.be, Talkatone
-host, mfx.mobilefuse.co, Talkatone
-IP-CIDR, 50.117.27.0/24, Talkatone
-IP-CIDR, 69.46.75.0/24, Talkatone
-IP-CIDR, 205.164.56.29/24, Talkatone
-IP-CIDR, 63.251.124.0/24, Talkatone
+HOST-SUFFIX,talkatone.com,Talkatone
+HOST-SUFFIX,inmobi.com,Talkatone
+HOST-SUFFIX,tenor.com,Talkatone
+HOST-SUFFIX,tktn.at,Talkatone
+HOST-SUFFIX,tktn.be,Talkatone
+HOST-SUFFIX,mobilefuse.com,Talkatone
+IP-CIDR,50.117.27.0/24,Talkatone
+IP-CIDR,63.251.124.0/24,Talkatone
+IP-CIDR,69.46.75.0/24,Talkatone
+IP-CIDR,205.164.56.0/24,Talkatone
+IP-CIDR,205.164.56.29/24,Talkatone
